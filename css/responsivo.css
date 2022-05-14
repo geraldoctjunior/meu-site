@@ -1,25 +1,45 @@
-@media (max-width: 600px){
+@media (max-width: 555px){
+    .navegador .lista-do-navegador{
+        flex-direction: column;
+    }
+
     .titulo {
         font-size: 30px;
     }
 
     .imagem img{
-        width: 400px;
+        width: 350px;
     }
     .slogan{
+        font-size: 20px;
+    }
+    .contatos .icone img{
+        width:50px;
+    }
+
+    .roda-pe{
         font-size: 15px;
+    }
+
 }
-}
-@media (max-width: 375px){
+@media (max-width: 400px){
     .titulo {
         font-size: 25px;
     }
 
     .imagem img{
-       width: 300px;
+       width: 275px;
     }
 
     .slogan{
         font-size: 15px; 
+    }
+
+    .contatos .icone img{
+        width:40px;
+    }
+
+    .roda-pe{
+        font-size: 10px;
     }
 }
