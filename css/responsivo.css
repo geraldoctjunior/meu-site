@@ -1,0 +1,25 @@
+@media (max-width: 600px){
+    .titulo {
+        font-size: 30px;
+    }
+
+    .imagem img{
+        width: 400px;
+    }
+    .slogan{
+        font-size: 15px;
+}
+}
+@media (max-width: 375px){
+    .titulo {
+        font-size: 25px;
+    }
+
+    .imagem img{
+       width: 300px;
+    }
+
+    .slogan{
+        font-size: 15px; 
+    }
+}
