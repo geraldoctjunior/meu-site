@@ -1,5 +1,5 @@
-@media (max-width: 555px){
-    .navegador .lista-do-navegador{
+@media (max-width: 555px) {
+    .navegador .lista-do-navegador {
         flex-direction: column;
     }
 
@@ -7,44 +7,47 @@
         font-size: 35px;
     }
 
-    .imagem img{
+    .imagem img {
         width: 350px;
     }
-    .slogan{
+
+    .slogan {
         font-size: 20px;
     }
-    .contatos .icone img{
-        width:50px;
+
+    .contatos .icone img {
+        width: 50px;
     }
 
-    .roda-pe{
+    .roda-pe {
         font-size: 15px;
     }
 
 }
-@media (max-width: 400px){
+
+@media (max-width: 400px) {
     .titulo {
         font-size: 30px;
     }
 
-    .imagem img{
-       width: 275px;
+    .imagem img {
+        width: 275px;
     }
 
-    .slogan{
-        font-size: 15px; 
+    .slogan {
+        font-size: 15px;
     }
 
-    .contatos .icone img{
-        width:40px;
+    .contatos .icone img {
+        width: 40px;
     }
 
-    .roda-pe{
+    .roda-pe {
         font-size: 10px;
     }
 }
 
-@media (max-width: 360px){
+@media (max-width: 360px) {
     .titulo {
         font-size: 25px;
     }
