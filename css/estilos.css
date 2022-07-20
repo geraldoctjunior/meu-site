@@ -40,9 +40,11 @@ header {
 main {
     margin: auto;
     padding: 30px;
+    display: flex;
     text-align: justify;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    max-width: 1300px;
 }
 
 .titulo {
@@ -53,11 +55,16 @@ main {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
 }
 
-img {
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
+
+main div img {
+    margin: 30px;
+    border-radius: 50%;
+    width: 300px;
+}
+
+main p {
+    font-size: 20px;
+    padding-left: 100px;
 }
 
 

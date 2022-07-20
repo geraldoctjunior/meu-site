@@ -38,8 +38,27 @@
         font-size: 15px;
     }
 
+    main{
+        margin: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    main div img {
+        width: 200px;
+    }
+
+    main p {
+        padding: 0px;
+        font-size: 16px;
+        text-align: justify;
+        justify-content: center;
+    }
+
     .contatos .icone img {
-        width: 40px;
+        width: 32px;
     }
 
     .roda-pe {
