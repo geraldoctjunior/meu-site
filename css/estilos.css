@@ -47,6 +47,16 @@ main {
     max-width: 1300px;
 }
 
+section.saudacao {
+    margin: auto;
+    padding: 30px;
+    display: fblock;
+    text-align: justify;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+}
+
 .titulo {
     text-align: center;
     align-items: center;
@@ -109,8 +119,8 @@ footer {
     transform: translate(0px, -4px);
     transition: transform .3s;
     border: 2px solid white;
-    
-    
+
+
 }
 
 .roda-pe {
