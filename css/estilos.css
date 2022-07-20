@@ -93,11 +93,17 @@ footer {
 
 .contatos .icone img {
     width: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
 }
 
 .contatos .icone img:hover {
-    transform: translate(0px, -3px);
+    transform: translate(0px, -4px);
     transition: transform .3s;
+    border: 2px solid white;
+    
+    
 }
 
 .roda-pe {
